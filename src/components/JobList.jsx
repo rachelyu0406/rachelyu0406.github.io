@@ -50,38 +50,25 @@ const JobList = () => {
   const isMobile = useMediaQuery(theme.breakpoints.down("md"));
 
   const experienceItems = {
-    Google: {
-      jobTitle: "Software Engineer III @",
-      duration: "JAN 2025 - PRESENT",
-      desc: [
-        "Built and launched large-scale machine learning-driven conversion autobidding models at Google scale, influencing bidding decisions across millions of advertisers and users",
-        "Integrated Google Gemini encoders into bidding models to enhance feature representation and improve prediction performance",
-        "Led end-to-end model development (data, training, evaluation, and production launch) for Proxybidder ML systems, directly driving multi-million-dollar revenue impact through improved conversion efficiency",
-      ],
-    },
-    Pinterest: {
-      jobTitle: "Software Engineer II @",
-      duration: "JUL 2024 - JAN 2025",
-      desc: [
-        "Led the development of a generative AI solution using LLMs for advanced prompt engineering, improving SEO and ad relevance, and resulting in a 20% increase in click-through rates, ad revenue and business visibility",
-        "Designed and developed an intuitive user interface for a prompt management system for 500K+ users, with key focus on accessibility, real-time collaboration features, and dynamic data visualization",
-      ],
-    },
-    Amazon: {
-      jobTitle: "Software Development Engineer II @",
-      duration: "JUL 2022 - MAY 2024",
-      desc: [
-        "Led development of end-to-end region build automation across Route 53 (AWS's DNS web service).  This enabled the launch of customer-facing global services in new regions within a day, a significant reduction from the previous time-frame of a month.",
-        "Re-built Route 53's core domain management and DNS systems to provide a better user experience to millions of customers.",
-      ],
-    },
-    Wattpad: {
+    "NCR Voyix": {
       jobTitle: "Software Engineer Intern @",
-      duration: "MAY 2020 - APR 2021",
+      duration: "MAY 2026 - PRESENT",
       desc: [
-        "Developed a responsive React web page (the new Story Details) from scratch, both on client and server side, for an app with massive scale (2 billion daily requests).",
-        "Iteratively built web experiences for 80 million users across high-traffic pages.",
-        "Collaborated with senior engineers and product management following best practices for the full software development life cycle, including coding standards, code reviews, source control management, build processes, testing, and operations.",
+        "Building Go backend services for AI Studio, transforming agent configurations into Dockerized, Kubernetes-ready services.",
+        "Automating REST APIs for agent definitions, prompts, MCP/tool selection, YAML configurations, and Dockerfile generation.",
+        "Designing agent lifecycle infrastructure with configuration validation, versioned artifacts, rollback, and deployment orchestration.",
+        "Implementing a QR Pay-at-Table MVP with Aloha POS and NCR Voyix Pay for guest checkout.",
+        "Engineering POS payment integration for check retrieval, tipping, and payment across Aloha-backed restaurant systems.",
+      ],
+    },
+    "Duke University": {
+      jobTitle: "Machine Learning Intern @",
+      duration: "MAY 2025 - JUL 2025",
+      desc: [
+        "Developed a data preprocessing pipeline to transform more than 20 terabytes of raw fMRI data into connectivity matrices for a cohort of over 3,000 subjects.",
+        "Created 3D brain models for each subject by integrating structural and functional MRI data, enabling visualization and spatial mapping of connectomes.",
+        "Developed and evaluated deep learning models using PyTorch and scikit-learn to predict Alzheimer’s disease using multi-modal clinical, structural, and functional inputs.",
+        "Built and optimized an XGBoost model that explained 76.9% of variance in clinical diagnosis outcomes.",
       ],
     },
   };

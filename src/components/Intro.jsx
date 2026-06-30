@@ -16,7 +16,7 @@ const Intro = () => {
           {"hi, "}
           <span className="intro-name">
             <TypeAnimation
-              sequence={["gazi"]}
+              sequence={["rachel"]}
               wrapper="span"
               cursor={false}
               repeat={0}
@@ -27,11 +27,13 @@ const Intro = () => {
         </div>
         <FadeInSection>
           <div className="intro-desc">
-            Software engineer and artist in New York City. I build ML models at
-            Google by day and make strange little projects at the intersection
-            of tech and art by night. Occasionally both happen at the same time.
+            Rising junior at Duke University studying Electrical &amp; Computer
+            Engineering and Computer Science, based in Cary, North Carolina. I
+            love exploring the intersection of technology and art, turning
+            curious ideas into thoughtful—and occasionally strange—little
+            projects.
           </div>
-          <a href="mailto:gazijarin@gmail.com" className="intro-contact">
+          <a href="mailto:rachelyu0406@gmail.com" className="intro-contact">
             <EmailRoundedIcon />
             {" Say hi!"}
           </a>

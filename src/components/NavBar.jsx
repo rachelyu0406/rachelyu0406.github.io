@@ -37,7 +37,7 @@ const NavBar = () => {
       onToggle={(isExpanded) => setExpanded(isExpanded)}
     >
       <Container>
-        <Navbar.Brand href="/">Gazi Jarin</Navbar.Brand>
+        <Navbar.Brand href="/">Rachel Yu</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto" onSelect={() => setExpanded(false)}>
@@ -49,19 +49,19 @@ const NavBar = () => {
             <Nav.Link href="/#art">Art</Nav.Link>
           </Nav>
           <Nav className="ms-auto" onSelect={() => setExpanded(false)}>
-            <Nav.Link href="mailto:gazijarin@gmail.com">
+            <Nav.Link href="mailto:rachelyu0406@gmail.com">
               <EmailRoundedIcon style={{ fontSize: 20 }} />
             </Nav.Link>
-            <Nav.Link href="https://github.com/gazijarin" target="_blank">
+            <Nav.Link href="https://github.com/rachelyu0406" target="_blank">
               <GitHubIcon style={{ fontSize: 19 }} />
             </Nav.Link>
             <Nav.Link
-              href="https://www.linkedin.com/in/gazijarin/"
+              href="https://www.linkedin.com/in/rachelyu0624/"
               target="_blank"
             >
               <LinkedInIcon style={{ fontSize: 21 }} />
             </Nav.Link>
-            <Nav.Link href="https://medium.com/@gazijarin.ai" target="_blank">
+            <Nav.Link href="#" title="Medium coming soon">
               <BorderColorIcon style={{ fontSize: 20 }} />
             </Nav.Link>
           </Nav>

@@ -73,7 +73,7 @@ const Projects = () => {
       <div className="section-header ">
         <span className="section-title">/ software</span>
         <a
-          href="https://github.com/gazijarin"
+          href="https://github.com/rachelyu0406"
           className="explore-link"
           target="_blank"
           rel="noopener noreferrer"

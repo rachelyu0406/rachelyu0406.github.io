@@ -5,26 +5,32 @@ import FadeInSection from "./FadeInSection";
 const About = () => {
   const one = (
     <p>
-      I am currently a <b>Software Engineer</b> at
-      <a href="https://www.ads.google.com/"> Google</a>, where I help build
-      autobidder models that make Google Search money. Previously, I was at{" "}
-      <a href="https://www.aboutamazon.com/"> Amazon</a> and{" "}
-      <a href="https://newsroom.pinterest.com/company/"> Pinterest.</a>
+      I am currently a <b>Software Engineer Intern</b> at
+      <a href="https://www.ncrvoyix.com/"> NCR Voyix</a>, where I build AI
+      infrastructure, turning agent configurations into deployable backend
+      services. Previously, I worked on{" "}
+      <a href="https://bigdata.duke.edu/projects/deep-multi-modal-detection-of-early-alzheimers/">
+        machine learning research at Duke University
+      </a>
+      , spanning large-scale fMRI preprocessing, 3D brain modeling, and
+      Alzheimer’s prediction.
     </p>
   );
   const two = (
     <p>
-      In my free time, I’m nerdy about tech gadgets, love literary fiction, and
-      play way too many battle royale games. Oh, I make content too.
+      In my free time, I make art, play club volleyball, build with Duke
+      Robotics, and occasionally wander down technical rabbit holes just to see
+      where they lead.
     </p>
   );
 
   const techStack = [
     "Python",
-    "Typescript",
-    "React.js",
-    "Java",
-    "Javascript ES6+",
+    "C/C++",
+    "Go",
+    "TypeScript",
+    "React",
+    "PyTorch",
   ];
 
   return (
@@ -47,7 +53,7 @@ const About = () => {
             {two}
           </div>
           <div className="about-image">
-            <img alt="Gazi Jarin" src={"/assets/me2.jpg"} />
+            <img alt="Rachel Yu" src={"/assets/me2.jpg"} />
           </div>
         </div>
       </FadeInSection>
