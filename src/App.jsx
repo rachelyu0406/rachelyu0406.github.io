@@ -21,6 +21,7 @@ function App() {
   const { pathname } = useLocation();
   const [gameActive, setGameActive] = useState(false);
   const [showGameInfo, setShowGameInfo] = useState(false);
+  const showProjectSections = false;
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -79,8 +80,8 @@ function App() {
                 <Intro />
                 <About />
                 <Experience />
-                <Projects />
-                <HardwareProjects />
+                {showProjectSections && <Projects />}
+                {showProjectSections && <HardwareProjects />}
                 <Art />
                 <Credits />
               </>
