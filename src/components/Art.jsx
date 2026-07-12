@@ -10,7 +10,8 @@ const Art = () => {
     { src: "/assets/art/art3.png", title: "artwork 3" },
     { src: "/assets/art/art4.png", title: "artwork 4" },
     { src: "/assets/art/art10.png", title: "artwork 5" },
-    { src: "/assets/art/art7.png", title: "artwork 6" }
+    { src: "/assets/art/art7.png", title: "artwork 6" },
+    { src: "/assets/art/art8.png", title: "artwork 7" }
   ];
 
   return (
